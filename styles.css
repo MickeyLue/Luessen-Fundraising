@@ -6,8 +6,8 @@ html, body, h1, h2, p, ul, li {
 
 /* Apply a basic page background color and font style */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #daffcd;
+    font-family: 'georgia', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Times New Roman', Times, serif, sans-serif;
+    background-color: #94a494;
     color: #000000;
     line-height: 1.6;
     margin: 0;
@@ -16,17 +16,17 @@ body {
 
 /* Style the header */
 header {
-    background-color: #333;
+    background-color: #082146;
     color: #fff;
-    text-align: left;
+    text-align: center;
     padding: 1em 1em;
 }
 
 /* Style the navigation menu */
 nav ul {
-    list-style: none;
-    text-align: left;
-    background-color: #444;
+    list-style: left;
+    text-align: center;
+    background-color: #415481;
     padding: 1em 1em;
 }
 
@@ -57,7 +57,7 @@ section h2 {
 
 /* Style images within sections */
 section img {
-    max-width: 90%;
+    max-width: 50%;
     height: auto;
     display: block;
     margin: 10px 0;
