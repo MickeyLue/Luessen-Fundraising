@@ -1,5 +1,11 @@
 /* Reset some default browser styles */
-html, body, h1, h2, p, ul, li {
+html,
+body,
+h1,
+h2,
+p,
+ul,
+li {
     margin: 0;
     padding: 0;
 }
@@ -24,14 +30,14 @@ header {
 
 /* Style the navigation menu */
 nav ul {
-    list-style: left;
+    list-style: none;
     text-align: center;
     background-color: #415481;
     padding: 1em 1em;
 }
 
 nav li {
-    display: inline;
+    display: <inline>;
     margin-right: 20px;
 }
 
@@ -52,15 +58,18 @@ main {
 section h2 {
     font-size: 24px;
     margin-bottom: 10px;
+    margin-top: 30px;
     color: #333;
+    text-align: center;
 }
 
 /* Style images within sections */
 section img {
-    max-width: 50%;
+    max-width: 100%;
     height: auto;
     display: block;
     margin: 10px 0;
+    text-align: center;
 }
 
 /* Style the footer */
